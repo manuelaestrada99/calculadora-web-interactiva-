@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplicación</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script defer src="js/operaciones.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Calculadora Web Interactiva</h1>
+  </header>
+
+  <main>
+    <h2>Multiplicación</h2>
+    <form onsubmit="event.preventDefault(); calcular('multiplicacion');">
+      <input type="number" id="valor1" placeholder="Primer número">
+      <input type="number" id="valor2" placeholder="Segundo número">
+      <button type="submit">Calcular</button>
+    </form>
+    <p id="resultado"></p>
+    <a href="index.html" class="volver">⬅️ Volver al menú</a>
+  </main>
+
+  <footer>
+    <p>© 2025 Calculadora Web Interactiva</p>
+  </footer>
+</body>
+</html>
